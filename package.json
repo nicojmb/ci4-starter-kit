@@ -1,0 +1,42 @@
+{
+    "name": "ci4-starter",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "run-p type-check \"build-only {@}\" --",
+        "preview": "vite preview",
+        "build-only": "vite build",
+        "type-check": "vue-tsc --build"
+    },
+    "dependencies": {
+        "@inertiajs/server": "^0.1.0",
+        "@inertiajs/vue3": "^2.0.3",
+        "@tailwindcss/postcss": "^4.0.9",
+        "@vitejs/plugin-vue": "^5.2.1",
+        "@vueuse/core": "^12.7.0",
+        "autoprefixer": "^10.4.20",
+        "laravel-vite-plugin": "^1.2.0",
+        "postcss": "^8.5.3",
+        "prettier-plugin-tailwindcss": "^0.6.11",
+        "tailwind-merge": "^3.0.2",
+        "tailwindcss": "^4.0.9",
+        "tailwindcss-animate": "^1.0.7",
+        "typescript": "^5.8.2",
+        "vite": "^6.2.0",
+        "vue": "^3.5.13"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.9",
+        "@tsconfig/node22": "^22.0.0",
+        "@types/node": "^22.13.4",
+        "@vitejs/plugin-vue": "^5.2.1",
+        "@vue/tsconfig": "^0.7.0",
+        "npm-run-all2": "^7.0.2",
+        "tailwindcss": "^4.0.9",
+        "typescript": "~5.7.3",
+        "vite": "^6.2.0",
+        "vue-tsc": "^2.2.2"
+    }
+}
