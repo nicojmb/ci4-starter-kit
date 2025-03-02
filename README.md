@@ -1,4 +1,4 @@
-# CodeIgniter 4 + InertiaJS + Vue3 + Vite + TailwindCSS Starter Kit
+# CodeIgniter 4 + InertiaJS + Vue3 Starter Kit
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nicojmb/ci4-starter-kit.svg?style=flat-square)](https://packagist.org/packages/nicojmb/ci4-starter-kit)
 [![Tests](https://img.shields.io/github/actions/workflow/status/nicojmb/ci4-starter-kit/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/nicojmb/ci4-starter-kit/actions/workflows/run-tests.yml)
@@ -7,6 +7,16 @@
 ## Description
 
 This is a starter kit for CodeIgniter 4 that includes InertiaJS, Vue3, Vite, and TailwindCSS. It is a great starting point for building modern web applications with CodeIgniter 4.
+
+## Features:
+
+- Latest Codeigniter version 4.6.0
+- Latest Vue 3 version with TypeScript.
+- Latest InertiaJS version.
+- Latest Vite version.
+- Latest TailwindCSS version.
+- Hot reloading for both PHP and Vue.
+- Clean code...
 
 ## Installation:
 
