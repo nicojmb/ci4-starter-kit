@@ -4,10 +4,8 @@ import { createApp, h } from 'vue';
 import type { DefineComponent } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3'
 
-const appName = import.meta.env.VITE_APP_NAME || 'Codeigniter';
-
 createInertiaApp({
-  title: (title) => `${title} - ${appName}`,
+  title: (title) => `${title} - ci4-starter-kit`,
   resolve: name => {
     const pages = import.meta.glob('../pages/**/*.vue', { eager: true })
     return pages[`../pages/${name}.vue`] as Promise<DefineComponent>
@@ -16,8 +14,5 @@ createInertiaApp({
     createApp({ render: () => h(App, props) })
       .use(plugin)
       .mount(el)
-  },
-  progress: {
-      color: '#4B5563',
   },
 })

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title inertia>ci4-inertia by @nicojmb</title>
+    <title inertia>ci4-starter-kit</title>
 
     <?php if (ENVIRONMENT === 'development') : ?>
         <script type="module" src="http://localhost:7325/@vite/client"></script>
