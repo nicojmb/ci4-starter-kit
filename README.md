@@ -32,8 +32,9 @@ composer create-project nicojmb/ci4-starter-kit my-project
 
 - Run: `npm intall` to install node dependencies.
 - Run: `npm run dev` to serve your assets.
+- Run: `composer update` to update your PHP dependencies.
+
 - Now start you CI server: `php spark serve` or access it through you virtual host.
-- Make sure to update your `.env` to set environment.
 
 > **IMPORTANT:**
 >
