@@ -8,6 +8,27 @@
 
 This is a starter kit for CodeIgniter 4 that includes InertiaJS, Vue3, Vite, and TailwindCSS. It is a great starting point for building modern web applications with CodeIgniter 4.
 
+## Installation:
+
+> Make sure your server meets [CI4 requirements](https://www.codeigniter.com/user_guide/intro/requirements.html).
+
+run the following command to create a project:
+
+```
+composer create-project nicojmb/ci4-starter-kit my-project
+```
+
+## Setup
+
+- Run: `npm intall` to install node dependencies.
+- Run: `npm run dev` to serve your assets.
+- Now start you CI server: `php spark serve` or access it through you virtual host.
+- Make sure to update your `.env` to set environment.
+
+> **IMPORTANT:**
+>
+> After the installation, there will be no bundled assets, so make sure to run `npm run dev` to serve them or just build them with `npm run build` command.
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
