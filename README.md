@@ -25,7 +25,7 @@ This is a starter kit for CodeIgniter 4 that includes InertiaJS, Vue3, Vite, and
 run the following command to create a project:
 
 ```
-composer create-project nicojmb/ci4-starter-kit my-project
+composer create-project nicojmb/ci4-starter-kit:dev-main my-project
 ```
 
 ## Setup
