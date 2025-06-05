@@ -30,7 +30,7 @@ composer create-project nicojmb/ci4-starter-kit my-project
 
 ## Setup
 
-- Run: `npm intall` to install node dependencies.
+- Run: `npm install` to install node dependencies.
 - Run: `npm run dev` to serve your assets.
 - Run: `composer update` to update your PHP dependencies.
 
