@@ -10,7 +10,7 @@ This is a starter kit for CodeIgniter 4 that includes InertiaJS, Vue3, Vite, and
 
 ## Features:
 
-- Latest Codeigniter version 4.6.0
+- Latest Codeigniter version 4.6.1
 - Latest Vue 3 version with TypeScript.
 - Latest InertiaJS version.
 - Latest Vite version.
